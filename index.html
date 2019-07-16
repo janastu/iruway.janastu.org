@@ -41,7 +41,9 @@ Although you can use them, for a more unique website, replace these images with 
 	                    <span class="icon-bar"></span>
 	                </button>
 	                <a class="navbar-brand" href="#">
-	                	<!--img class="img-responsive" src="icons/logo.png"-->
+	                	<div class="logo">
+	                		<img class="img-responsive" src="icons/logo.png">
+	                	</div>
 	                	IruWay Farm
 	                </a>
 	            </div>
@@ -49,16 +51,16 @@ Although you can use them, for a more unique website, replace these images with 
 	            <div class="collapse navbar-collapse" id="navbar">
 	                <ul class="nav navbar-nav navbar-right">
 	                    <li class="active">
-	                        <a href="#">About</a>
+	                        <a href="#about">About</a>
 	                    </li>
 	                    <li>
-	                        <a href="#">Projects</a>
+	                        <a href="#projects">Projects</a>
 	                    </li>
 	                    <li>
-	                        <a href="#">Albums</a>
+	                        <a href="#albums">Albums</a>
 	                    </li>
 	                    <li>
-	                        <a href="#">StoryMap</a>
+	                        <a href="#storymap">StoryMap</a>
 	                    </li>
 	                </ul>
 	            </div><!-- /.navbar-collapse -->
@@ -69,7 +71,7 @@ Although you can use them, for a more unique website, replace these images with 
 	    <section class="carousel-default">
 	    	<div class="overlay-text">
 	    		<h1>Iruway</h1>
-	    		<p class="lead text-center middle-para">iruWay is a collectively owned farm that aspires to be an inclusive laboratory of holistic technology exploration.</p>
+	    		<p class="lead text-center middle-para">IruWay is a collectively owned farm that aspires to be an inclusive laboratory of holistic technology exploration.</p>
 	    	</div>
 	        <div id="carousel-default" class="carousel slide" data-ride="carousel">
 	          	<ol class="carousel-indicators">
@@ -117,10 +119,11 @@ Although you can use them, for a more unique website, replace these images with 
 					
 	            </div>
 
-	            <div class="col-md-12">
+	            <!--Story Map-->
+	            <div id="storymap" class="col-md-12">
 
 	            	<h2 class="">Story Map</h2>
-	            	<iframe width="960px" height="480px" src="https://uploads.knightlab.com/storymapjs/153806c20fd485043c277e903f0dd40a/iruway-farm/index.html"></iframe>
+	            	<iframe   width="960px" height="480px" src="https://uploads.knightlab.com/storymapjs/153806c20fd485043c277e903f0dd40a/iruway-farm/index.html"></iframe>
 	            </div>
 
 
@@ -244,7 +247,7 @@ Although you can use them, for a more unique website, replace these images with 
 	    </div><!-- /.container-fluid -->
 		
 		
-		<div class="container-fluid">
+		<div class="container-fluid" id="projects">
 			<h1 class="text-center">Projects</h1>
 			<hr>
 			<!-- Project 1 -->
@@ -275,7 +278,9 @@ Although you can use them, for a more unique website, replace these images with 
 			<hr>
 			<!-- Project 3 -->
 			<div class="row project">
-				<div class="col-md-5"></div>
+				<div class="col-md-5">
+					<img class="img-responsive" src="images/img14.jpeg">
+				</div>
 				<div class="col-md-7">
 					<h2 class="text-center">Anthillhacks and Annotated Knowledge Archives</h2>
 					<p>The transformative potential of indigenous knowledge production, archiving and storytelling in a decentralized wifi-mesh context is likely going to lead to alternate possibilities of development for low-literate and remote communities.</p>
@@ -357,16 +362,19 @@ Although you can use them, for a more unique website, replace these images with 
 		<footer>
 			<div class="container">
 				<div class="row">
-	            	<div class="col-md-4-12">
+	            	<div class="col-md-12">
 	                	<h1 class="text-center">How to get to IruWay?</h1>
 	                	<p class="text-center">The IruWay Farm is about 14 km from Tumakuru and 75 km from Bengaluru. See
 						<a href=" http://j.mp/antz-farm"> http://j.mp/antz-farm</a> for details.</p>
 	            	</div>
 	        	</div>
 			</div>
-
+			<!--Google map width="1350" height="250"-->
+			<div class="map-container">
+			    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d147693.16180489046!2d77.20249033255999!3d13.407198430601273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDIyJzU4LjkiTiA3N8KwMTInMjQuMCJF!5e0!3m2!1sen!2sin!4v1563308907805!5m2!1sen!2sin"  frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
 			<!-- Footer Links -->
-			<div class="footer-info">
+			<div class="footer-info" id="about">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-4 footer-info-item">
