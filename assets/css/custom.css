@@ -82,6 +82,9 @@ h6 {
 	background-position: 50% 50%;
 	}
 
+.project p {
+	padding: 0px 20px 0px 20px;
+}
 .featured-product {
 	min-height: 525px;
 }
@@ -280,7 +283,7 @@ p{
 	background-attachment: fixed;
 }
 .project img{
-	width: 100%;
+	padding: 20px;
 }
 .project h2{
 	margin-top: 0px;
