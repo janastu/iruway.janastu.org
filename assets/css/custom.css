@@ -269,9 +269,9 @@ p{
 	font-size: 18px;
 }
 .site-map {
-	height: 960px;
-	background: url('../images/iruway-route.jpeg');
-	background-size: cover;
+	height: 100vh;
+	background: url('../images/iruway-route-16x9.jpg');
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
