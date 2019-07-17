@@ -1,5 +1,5 @@
 body {
-	padding-top: 50px;    /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
+	
 	color: #959595;
 	}
 	
@@ -158,6 +158,7 @@ a:focus {
 /* Navbar */
 .navbar-default {
   background-color: #fff;
+  margin-bottom: 0px;
 }
 .navbar-default .navbar-brand {
   color: #dd845a;
