@@ -82,6 +82,9 @@ h6 {
 	background-position: 50% 50%;
 	}
 
+.featured-product {
+	min-height: 525px;
+}
 .featured-product > img,
 .featured-product > a > img {
 	height: 150px;
