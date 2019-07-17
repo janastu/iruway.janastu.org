@@ -289,6 +289,7 @@ p{
 	left: 10%;
 	background: rgba(255,255,255,0.8);
 	padding: 30px;
+	border-radius: 5px;
 }
 .footer-info-item p, .copyright{
 	font-size: 14px;
