@@ -282,6 +282,9 @@ p{
 .project h2{
 	margin-top: 0px;
 }
+.caption p {
+	font-size: 14px !important;
+}
 .overlay-text{
 	position: absolute;
 	top: 61px;
