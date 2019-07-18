@@ -1,5 +1,5 @@
 body {
-	padding-top: 50px;    /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
+	
 	color: #959595;
 	}
 	
@@ -82,6 +82,12 @@ h6 {
 	background-position: 50% 50%;
 	}
 
+.project p {
+	padding: 0px 20px 0px 20px;
+}
+.featured-product {
+	min-height: 525px;
+}
 .featured-product > img,
 .featured-product > a > img {
 	height: 150px;
@@ -123,7 +129,7 @@ h6 {
 	}
 
 .footer-info h3 {
-	color: black;
+	color: #dd845a;
 	font-size: 18px;
 	}
     
@@ -158,6 +164,7 @@ a:focus {
 /* Navbar */
 .navbar-default {
   background-color: #fff;
+  margin-bottom: 0px;
 }
 .navbar-default .navbar-brand {
   color: #dd845a;
@@ -269,25 +276,31 @@ p{
 	font-size: 18px;
 }
 .site-map {
-	height: 960px;
-	background: url('../images/iruway-route.jpeg');
-	background-size: cover;
+	height: 100vh;
+	background: url('../images/iruway-route-16x9.jpg');
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
 .project img{
-	width: 100%;
+	padding: 20px;
 }
 .project h2{
 	margin-top: 0px;
+}
+.caption p {
+	font-size: 14px !important;
 }
 .overlay-text{
 	position: absolute;
 	top: 61px;
 	z-index: 1;
-	left: 10%;
+	left: 8%;
 	background: rgba(255,255,255,0.8);
-	padding: 30px;
+	padding-left: 30px;
+	padding-right: 15px;
+	border-radius: 5px;
+	width: 57%;
 }
 .footer-info-item p, .copyright{
 	font-size: 14px;
