@@ -283,7 +283,12 @@ p{
 	background-attachment: fixed;
 }
 .project img{
-	padding: 20px;
+	padding: 20px 20px 0px 20px;
+}
+.photo-credit{
+	text-align: right;
+	display: block;
+	margin-right: 20px;
 }
 .project h2{
 	margin-top: 0px;
