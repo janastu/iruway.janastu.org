@@ -327,6 +327,16 @@ p{
 .img-view{
 	display: inline-flex;
 }
+.contact-us{
+	margin-top: 20px;
+}
+.contact-us .card-body img{
+	width: 25%;
+	display: inline-block;
+}
+.contact-us .card-body h4{
+	margin-bottom: 3rem;
+}
 
 @media (min-width: 320px){
 	.overlay-text{
