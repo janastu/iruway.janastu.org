@@ -324,6 +324,9 @@ p{
 	padding-top: 75px;
 	height: 0;
 }
+.img-view{
+	display: inline-flex;
+}
 
 @media (min-width: 320px){
 	.overlay-text{
