@@ -139,7 +139,6 @@ h6 {
     
 footer .small-print {
 	background-color: #fff;
-	padding: 30px 0;
 	text-align: center;
 }
 
@@ -342,6 +341,14 @@ p{
 .contact-us .card-body h4{
 	margin-bottom: 3rem;
 }
+
+/***************************************************************
+******************* H O V E R E F F E C T **********************
+****************************************************************/
+/*.contact-img:hover{
+	content: url('../icons/marker.png');
+	background-color: blue;
+}*/
 
 @media (min-width: 320px){
 	.overlay-text{
