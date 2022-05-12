@@ -89,7 +89,7 @@ h6 {
 	padding: 0px 20px 0px 20px;
 }
 .featured-product {
-	min-height: 450px;
+	height: 450px;
 }
 
 .featured-product img {
