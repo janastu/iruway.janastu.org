@@ -142,7 +142,6 @@ h6 {
     
 footer .small-print {
 	background-color: #fff;
-	padding: 30px 0;
 	text-align: center;
 }
 
@@ -290,7 +289,12 @@ p{
 	background-size: cover;
 }
 .project img{
-	padding: 20px;
+	padding: 20px 20px 0px 20px;
+}
+.photo-credit{
+	text-align: right;
+	display: block;
+	margin-right: 20px;
 }
 .project h2{
 	margin-top: 0px;
@@ -334,6 +338,24 @@ p{
 .img-view{
 	display: inline-flex;
 }
+.contact-us{
+	margin-top: 20px;
+}
+.contact-us .card-body img{
+	width: 25%;
+	display: inline-block;
+}
+.contact-us .card-body h4{
+	margin-bottom: 3rem;
+}
+
+/***************************************************************
+******************* H O V E R E F F E C T **********************
+****************************************************************/
+/*.contact-img:hover{
+	content: url('../icons/marker.png');
+	background-color: blue;
+}*/
 
 @media (min-width: 320px){
 	.overlay-text{
