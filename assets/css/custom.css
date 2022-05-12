@@ -11,7 +11,10 @@ h5,
 h6 {
 	color: #dd845a;
 	}
-	
+.col-sm-6.col-md-3 {
+	display: flex;
+	align-items: stretch;
+}
 .feature {
 	background: url('../images/light_bulb.jpg');
 	background-position: top right;
@@ -86,13 +89,13 @@ h6 {
 	padding: 0px 20px 0px 20px;
 }
 .featured-product {
-	min-height: 525px;
-}
-.featured-product > img,
-.featured-product > a > img {
-	height: 150px;
+	min-height: 450px;
 }
 
+.featured-product img {
+	height: 200px;
+	width: auto;
+}
 .featured-product h3 {
 	color: #dd845a;
 	font-size: 18px;
@@ -254,6 +257,10 @@ p{
 #more{
 	display: none;
 }
+[data-toggle] {
+	color: orange;
+	cursor: pointer;
+}
 .load-more{
 	display: block;
 	margin-left: auto;
@@ -276,11 +283,11 @@ p{
 	font-size: 18px;
 }
 .site-map {
-	height: 100vh;
+	height: calc(100vh - 15px);
 	background: url('../images/iruway-route-16x9.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-size: cover;
 }
 .project img{
 	padding: 20px;
